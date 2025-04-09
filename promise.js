@@ -26,7 +26,7 @@ fetchData()
 .then(data=>console.log(data))
 .catch(err=> console.log(err)) 
 
-
+//////////////////////////////////////////////
 
 const urls=[
   'https://jsonplaceholder.typicode.com/posts/1',
