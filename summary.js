@@ -51,3 +51,23 @@ console.log(newProduct)
 console.log(newProducts)
 ////////////////////////
 
+const newProductItems = product.find(p=> p.id===3)
+const newProductItem = product.find(p=> p.color==='gold')
+console.log(newProductItems)
+console.log(newProductItem)
+////////////////////////////////////
+
+class persons{
+    constructor(name,age){
+        this.name= name;
+        this.age= age
+    }
+}
+const habib  = new persons('habib',24)
+console.log(habib)
+
+class habib extends persons{
+    constructor{name,age,status}{
+        super(name,age,status)
+    }
+}
