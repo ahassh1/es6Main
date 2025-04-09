@@ -17,5 +17,12 @@ console.log(person['age'])
 console.log(person[1])
 console.log(person?.mother?.job)
 
+const number =[2,4,567,8,7,8,66,8];
+const newNumber = number.map(num=> num*num);
+console.log(newNumber)
 
-
+const numbers =[2,4,567,8,7,8,66,8];
+const newNumbers = numbers.map(num=>{
+    return num*num;
+});
+console.log(newNumbers)
