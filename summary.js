@@ -30,16 +30,24 @@ console.log(newNumbers)
 ///////////////////////////////////
 
 const product = [
-    { id: 1, brand: 'iphone' },
-    { id: 2, brand: 'shomio' },
-    { id: 3, brand: 'howe' },
-    { id: 4, brand: 'aoigfj' }
+    { id: 1, brand: 'iphone', color:'gold' },
+    { id: 2, brand: 'shomio', color:'black'},
+    { id: 3, brand: 'howe' ,color: 'white'},
+    { id: 4, brand: 'aoigfj',color:'gold' }
 ];
 
-
+/////////////////////////////////////
 product.forEach(p=>console.log(p))
 product.forEach(p=>{
     if(p.brand==='iphone'){
         console.log(p);
     }
 })
+
+////////////////////////////
+const newProduct = product.filter(p=> p.color==='gold')
+const newProducts = product.filter(p=> p.id!=3)
+console.log(newProduct)
+console.log(newProducts)
+////////////////////////
+
