@@ -66,8 +66,8 @@ class persons{
 const habib  = new persons('habib',24)
 console.log(habib)
 
-class habib extends persons{
-    constructor{name,age,status}{
-        super(name,age,status)
-    }
-}
+// class habib extends persons{
+//     constructor{name,age,status}{
+//         super(name,age,status)
+//     }
+// }
