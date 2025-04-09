@@ -1,4 +1,5 @@
 const loadData= async() => {
+   try{
     console.log('this is first')
     console.log('this is second')
 
@@ -9,9 +10,14 @@ const loadData= async() => {
     const result= 10+20;
     console.log(result)
     console.log('this is third')
+   }
+   catch{
+    console.log('error')
+   }
 }
 loadData()
 
+///////////////////////////////////////
 async function fetchData(){
     const response  = await fatch('');
     const data = await response.json();
